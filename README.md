@@ -21,8 +21,7 @@
 > -   Heap : 객체가 할당되어 담기는 곳
 
 #### (2) 변수가 메모리에 할당 되는 방식
-
-(그림 예시)
+![KakaoTalk_Photo_2023-05-30-19-03-02](https://github.com/anttto/Js_Mastery/assets/57241573/a4a4eaed-dfb1-4874-9afb-79b8ec63c747)
 
 #### (3) null 과 undefinded 타입
 
