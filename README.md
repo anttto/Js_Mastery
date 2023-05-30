@@ -21,7 +21,6 @@
 > -   Heap : 객체가 할당되어 담기는 곳
 
 #### (2) 변수가 메모리에 할당 되는 방식
-![KakaoTalk_Photo_2023-05-30-19-03-02](https://github.com/anttto/Js_Mastery/assets/57241573/a4a4eaed-dfb1-4874-9afb-79b8ec63c747)
 
 #### (3) null 과 undefinded 타입
 
@@ -39,8 +38,6 @@ console.log(typeof undefinded); //undefinded
 
 1. 원시(Primitive)타입 :
 
-> 값 자체가 메모리 셀에 들어가 있음.
-
 ```
 //원시타입은 값이 복사되어 전달됨
 let a = 1;
@@ -49,6 +46,10 @@ b = 2;
 console.log(a); //1
 console.log(b); //2
 ```
+
+> 값 자체가 메모리 셀에 들어가 있음.
+![KakaoTalk_Photo_2023-05-30-19-04-38-1](https://github.com/anttto/Js_Mastery/assets/57241573/e3f1c28f-e169-4a56-a533-f75158b50ea4)
+
 
 2. 객체(Object)타입 :
 
@@ -69,6 +70,10 @@ console.log(orange); //{name:'오렌지'}
 
 > 결론 : '원시타입'은 메모리에 담겨 있는 변수의 값이 그대로 재할당 되는 반면, '객체타입'은 메모리의 값이 아닌 실제 데이터의 위치 주소만 참조 하기 때문에, 변수를 몇번이고 재할당 하더라도 근본의 데이터 값이 수정됨.
 > 작업중 객체를 자주 다룰때 도움이 될 중요한 기초 컨셉
+
+![KakaoTalk_Photo_2023-05-30-19-03-02](https://github.com/anttto/Js_Mastery/assets/57241573/a4a4eaed-dfb1-4874-9afb-79b8ec63c747)
+
+
 
 #### (5) let & const
 
